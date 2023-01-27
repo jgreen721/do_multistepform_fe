@@ -48,6 +48,7 @@ a {
   display: flex;
   align-items: center;
   justify-content: center;
+  background: var(--magnolia);
 }
 
 .app {
@@ -58,6 +59,8 @@ a {
   /* border: 2px dotted red; */
   margin: 0 auto;
   padding: 1.9rem;
+  border-radius: 8px;
+  box-shadow: 2px 3px 25px lightgray;
   position: relative;
   /* background: var(--magnolia); */
   font-family: var(--mainfont);
