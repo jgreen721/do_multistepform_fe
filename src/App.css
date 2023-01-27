@@ -526,7 +526,7 @@ label {
   }
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 415px) {
   .app {
     min-width: fit-content;
     width: 100%;

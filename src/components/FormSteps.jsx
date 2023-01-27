@@ -12,7 +12,7 @@ const FormSteps = ({count}) => {
     <div className="form-steps-parent">
         <picture>
           <source media="(min-width:650px)" srcSet={desktopSidebar}/>
-          <source media="(min-width:375px)" srcSet={desktopSidebar}/>
+          <source media="(min-width:415px)" srcSet={desktopSidebar}/>
           <img className="bg-img" src={mobileSidebar} alt="img"/>
         </picture>
         <ul className="steps">
