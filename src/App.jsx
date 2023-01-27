@@ -48,6 +48,7 @@ function App() {
     }
   
   return (
+    <div className="parent-app">
     <div className="app">
       {/* <div className="app-wrapper"> */}
       <FormSteps count={count}/>
@@ -56,6 +57,7 @@ function App() {
       </FormParent>
       <NextStep nextStep={nextStep} prevStep={prevStep} count={count}/>
     {/* </div> */}
+    </div>
     </div>
   )
 }
